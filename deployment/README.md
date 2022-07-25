@@ -41,4 +41,4 @@ Require all granted
 
 ### Refernce:
 
-- [https://www.digitalocean.com/community/tutorials/how-to-serve-django-applications-with-apache-and-mod_wsgi-on-ubuntu-16-04](serve django application with apache)
+- [serve django application with apache](https://www.digitalocean.com/community/tutorials/how-to-serve-django-applications-with-apache-and-mod_wsgi-on-ubuntu-16-04)
