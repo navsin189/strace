@@ -16,7 +16,7 @@ function App() {
 
   async function fetching_strace_output() {
     let exec = `${command.cmd} ${command.processName}`
-    await fetch("http://13.235.49.253:80/", {
+    await fetch("http://127.0.0.1:8000/", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ command: "strace -f -p 769" }),
